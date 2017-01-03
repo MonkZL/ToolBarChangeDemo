@@ -1,21 +1,13 @@
 package zl.com.myapplication;
 
-import android.animation.Animator;
-import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.Color;
 import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.view.animation.LinearInterpolator;
-import android.view.animation.ScaleAnimation;
 import android.widget.AbsListView;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 
 /**
@@ -28,6 +20,7 @@ public class TBehavior extends CoordinatorLayout.Behavior<ViewGroup> implements 
     private View dependency;
     private int height;
     private ImageView imageView;
+
 
     public TBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);
